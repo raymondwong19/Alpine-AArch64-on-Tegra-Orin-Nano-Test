@@ -1,0 +1,19 @@
+The Orin Nano was booted from SD card.
+The original installation was a Jetson Jetpack 7.2 install with 6.8.12-1021-tegra.
+
+1. We borrowed the kernel - copied the /lib/modules/6.8.12-1021-tegra + /boot/Image to another place. The dtb/kernel_tegra234-p3768-0000+p3767-0005-nv-super.dtb and the initrd was also copied - althrough replaced later.
+2. Used the Armbian UEFI-arm64 image as a base.
+3. Did test booting the stock Armbian image - nothing happened after GRUB.
+
+4. The armbi_root partition is emptied out via rm -rf and a Alpine Linux edge bootstrap tar.xz was extracted onto the partition. Chroot was used to install some base packages as listed in world. /boot was kept for the GRUB config.
+5. Image is copied to /boot, DTB too as filename dtb, and initrd as a first boot test. Modules copied to /lib/modules. The stock Armbian grub dir was copied and filenames edited.
+	  echo	'Loading Linux Nvidia kernel ...'
+	  linux	/boot/vmlinuz root=UUID=5247d3a2-cb57-41fa-89cc-d75502121d5e console=tty1 splash plymouth.ignore-serial-consoles rw rootwait rootfstype=ext4 mminit_loglevel=4 console=ttyTCU0,115200 firmware_class.path=/lib/firmware fbcon=map:0 video=efifb:off efi_pstore.pstore_disable=1 pstore.backend=ramoops efi=runtime pci=pcie_bus_perf nvme.use_threaded_interrupts=1
+	  echo	'Loading initial ramdisk ...'
+	  initrd	/boot/initramfs
+    devicetree ...
+6. The installation did not boot with devicetree. Apparently loading the jetson DTB actually causes the board to brown out.
+7. devicetree was removed and the board boots fine over ACPI with no DTB loaded by GRUB.
+
+8. Nvidia OoT firmware from the BSP is installed into /lib/firmware.
+Only nvidia-l4t-firmware was used. For Nvgpu package is a stub and Openrm is not used by the kernel.
