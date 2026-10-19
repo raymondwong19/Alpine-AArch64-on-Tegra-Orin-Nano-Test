@@ -1,0 +1,7 @@
+Well - the thing is - the Nvidia BSP packages are many in number and rather convuluted - the scripts used to start the system is kinda hard to read.
+
+What is apparent is that the Nvidia OoT kernel modules in $MODULES_DIR/updates are not loaded the standard Linux way by modprobe in JetPack - as the blacklist.conf in the standard rootfs blacklists OoT modules like nvgpu, nvidia_uvm, etc.
+I suppose they aren't supposed to load by default by modprobe. Likewise in Alpine, they disagree on the symbols and fails to load.
+
+Otherwise - the CPU works and Alpine boots - Display out works - SD card and my QCS6174 Wi-Fi works - USB works - and like the basics.
+What doesn't work is the GPU and associated accelerators. Compute on the thing is broken in stock Linux.
