@@ -1,0 +1,106 @@
+Module                  Size  Used by
+nf_tables             233472  0
+libcrc32c              12288  1 nf_tables
+nfnetlink              20480  1 nf_tables
+ipv6                  442368  22
+ath10k_pci             40960  0
+ath10k_core           364544  1 ath10k_pci
+ath                    32768  1 ath10k_core
+mac80211              856064  1 ath10k_core
+libarc4                12288  1 mac80211
+cfg80211              864256  3 ath,mac80211,ath10k_core
+r8168                 495616  0
+snd_soc_tegra_controls    20480  0
+snd_soc_tegra_utils    12288  1 snd_soc_tegra_controls
+snd_soc_tegra210_admaif    86016  1
+snd_soc_tegra186_asrc    36864  1
+snd_soc_tegra210_mixer   114688  1
+snd_soc_tegra210_ope    36864  1
+snd_soc_tegra_pcm      12288  1 snd_soc_tegra210_admaif
+snd_soc_tegra210_mvc    20480  2
+snd_soc_tegra210_adx    49152  4
+snd_soc_tegra210_amx    49152  4
+snd_soc_tegra210_sfc    49152  4
+snd_soc_tegra210_i2s    24576  2
+nvhost_isp5            16384  0
+nvhost_nvcsi           12288  0
+tegra_capture_isp      36864  1 nvhost_isp5
+nvhost_vi5             16384  0
+tegra_camera          208896  3 tegra_capture_isp,nvhost_nvcsi,nvhost_vi5
+v4l2_dv_timings        32768  1 tegra_camera
+tegra_camera_platform    16384  4 nvhost_isp5,tegra_camera,nvhost_nvcsi,nvhost_vi5
+mc_utils               12288  1 tegra_camera_platform
+capture_ivc            24576  2 tegra_capture_isp,tegra_camera
+v4l2_fwnode            16384  1 tegra_camera
+v4l2_async             20480  2 v4l2_fwnode,tegra_camera
+videobuf2_dma_contig    16384  1 tegra_camera
+snd_soc_tegra210_ahub  2011136  1
+videobuf2_memops       12288  1 videobuf2_dma_contig
+videobuf2_v4l2         28672  1 tegra_camera
+tegra210_adma          20480  0
+host1x_fence           32768  1
+nvmap                 208896  0
+spidev                 20480  0
+videodev              262144  4 v4l2_async,v4l2_fwnode,videobuf2_v4l2,tegra_camera
+nvvrs_pseq_rtc         12288  0
+host1x_nvhost          28672  2 host1x_fence,tegra_camera
+videobuf2_common       61440  4 videobuf2_dma_contig,videobuf2_v4l2,tegra_camera,videobuf2_memops
+mc                     53248  5 v4l2_async,videodev,videobuf2_v4l2,tegra_camera,videobuf2_common
+nvsciipc               36864  1 nvmap
+snd_soc_tegra_audio_graph_card    16384  0
+crct10dif_ce           12288  1
+ivc_cdev               12288  1 nvsciipc
+snd_hda_codec_hdmi     53248  1
+snd_soc_audio_graph_card    12288  1 snd_soc_tegra_audio_graph_card
+snd_soc_simple_card_utils    24576  3 snd_soc_tegra_audio_graph_card,snd_soc_audio_graph_card,snd_soc_tegra210_i2s
+tegra234_oc_event      12288  0
+pwm_fan                16384  0
+nvpmodel_clk_cap       12288  0
+rtk_btusb              73728  0
+btrtl                  20480  0
+btintel                40960  0
+btmtk                  12288  0
+btbcm                  20480  0
+mttcan                 53248  0
+nvpps                  32768  1 mttcan
+can_dev                40960  1 mttcan
+bluetooth             528384  5 btrtl,btmtk,btintel,btbcm,rtk_btusb
+tegra_dce             114688  1
+arm_dsu_pmu            16384  0
+fusb301                20480  0
+ina3221                16384  0
+tegra234_aon           36864  1
+snd_hda_tegra          12288  0
+tegra_cactmon_mc_all    12288  0
+tegra_aconnect         12288  0
+ecdh_generic           12288  1 bluetooth
+ecc                    32768  1 ecdh_generic
+snd_hda_codec         122880  2 snd_hda_codec_hdmi,snd_hda_tegra
+tegra_drm             339968  0
+snd_hda_core           98304  3 snd_hda_codec_hdmi,snd_hda_codec,snd_hda_tegra
+rfkill                 24576  4 bluetooth,cfg80211
+tegra_xudc             40960  0
+pwm_tegra_tachometer    12288  0
+at24                   16384  0
+spi_tegra114           20480  0
+tegra_camera_rtcpu    196608  3 capture_ivc,tegra_capture_isp,tegra_camera
+mc_hwpm                12288  0
+tegra_wmark            12288  0
+ivc_bus                20480  2 capture_ivc,tegra_camera_rtcpu
+pwm_tegra              12288  1
+ramoops                20480  0
+nvhwpm                458752  2 mc_hwpm,tegra_drm
+hsp_mailbox_client     16384  2 ivc_bus,tegra_camera_rtcpu
+optee_rng              12288  0
+pcie_tegra194          32768  0
+rng_core               16384  1 optee_rng
+tegra_bpmp_bwmgr       12288  0
+reed_solomon           16384  1 ramoops
+tegra_bpmp_thermal     12288  0
+thermal_trip_event     12288  0
+nvidia_vrs_pseq        12288  0
+drm_display_helper    147456  1 tegra_drm
+drm_dp_aux_bus         12288  1 tegra_drm
+cec                    49152  1 tegra_drm
+host1x                155648  7 host1x_nvhost,host1x_fence,nvhost_isp5,tegra_capture_isp,tegra_camera,tegra_drm,nvhost_vi5
+phy_tegra194_p2u       12288  9

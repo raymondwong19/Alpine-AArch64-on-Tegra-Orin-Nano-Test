@@ -1,0 +1,320 @@
+[    5.464264] tegra_drm: disagrees about version of symbol __host1x_client_init
+[    5.464471] tegra_drm: Unknown symbol __host1x_client_init (err -22)
+[    5.464658] tegra_drm: disagrees about version of symbol host1x_fence_create
+[    5.464837] tegra_drm: Unknown symbol host1x_fence_create (err -22)
+[    5.470609] tegra_drm: disagrees about version of symbol host1x_channel_stop
+[    5.477679] tegra_drm: Unknown symbol host1x_channel_stop (err -22)
+[    5.483981] tegra_drm: disagrees about version of symbol host1x_client_suspend
+[    5.491329] tegra_drm: Unknown symbol host1x_client_suspend (err -22)
+[    5.497919] tegra_drm: disagrees about version of symbol host1x_memory_context_get
+[    5.505525] tegra_drm: Unknown symbol host1x_memory_context_get (err -22)
+[    5.512382] tegra_drm: disagrees about version of symbol host1x_syncpt_alloc
+[    5.519298] tegra_drm: Unknown symbol host1x_syncpt_alloc (err -22)
+[    5.525417] tegra_drm: disagrees about version of symbol host1x_job_pin
+[    5.532194] tegra_drm: Unknown symbol host1x_job_pin (err -22)
+[    5.538376] tegra_drm: disagrees about version of symbol host1x_syncpt_request
+[    5.545629] tegra_drm: Unknown symbol host1x_syncpt_request (err -22)
+[    5.552200] tegra_drm: disagrees about version of symbol host1x_job_put
+[    5.558881] tegra_drm: Unknown symbol host1x_job_put (err -22)
+[    5.564899] tegra_drm: disagrees about version of symbol host1x_syncpt_release_vblank_reservation
+[    5.573794] tegra_drm: Unknown symbol host1x_syncpt_release_vblank_reservation (err -22)
+[    5.582189] tegra_drm: disagrees about version of symbol host1x_job_unpin
+[    5.588716] tegra_drm: Unknown symbol host1x_job_unpin (err -22)
+[    5.603084] tegra_drm: disagrees about version of symbol host1x_memory_context_alloc
+[    5.617933] tegra_drm: Unknown symbol host1x_memory_context_alloc (err -22)
+[    5.617994] tegra_drm: disagrees about version of symbol host1x_memory_context_put
+[    5.629482] tegra_drm: Unknown symbol host1x_memory_context_put (err -22)
+[    5.629524] tegra_drm: disagrees about version of symbol host1x_syncpt_get_by_id_noref
+[    5.641121] tegra_drm: Unknown symbol host1x_syncpt_get_by_id_noref (err -22)
+[    5.641126] tegra_drm: disagrees about version of symbol host1x_syncpt_put
+[    5.641128] tegra_drm: Unknown symbol host1x_syncpt_put (err -22)
+[    5.656123] tegra_drm: disagrees about version of symbol host1x_syncpt_read
+[    5.691520] tegra_drm: Unknown symbol host1x_syncpt_read (err -22)
+[    5.705765] tegra_drm: disagrees about version of symbol host1x_job_submit
+[    5.712611] tegra_drm: Unknown symbol host1x_job_submit (err -22)
+[    5.719033] tegra_drm: disagrees about version of symbol __host1x_client_register
+[    5.726173] tegra_drm: Unknown symbol __host1x_client_register (err -22)
+[    5.733010] tegra_drm: disagrees about version of symbol host1x_syncpt_get_by_id
+[    5.740257] tegra_drm: Unknown symbol host1x_syncpt_get_by_id (err -22)
+[    5.740317] tegra_drm: disagrees about version of symbol host1x_client_exit
+[    5.755133] tegra_drm: Unknown symbol host1x_client_exit (err -22)
+[    5.775745] tegra_drm: disagrees about version of symbol host1x_syncpt_wait
+[    5.786897] tegra_drm: Unknown symbol host1x_syncpt_wait (err -22)
+[    5.824204] tegra_drm: disagrees about version of symbol host1x_syncpt_get
+[    5.831019] tegra_drm: Unknown symbol host1x_syncpt_get (err -22)
+[    5.837148] tegra_drm: disagrees about version of symbol host1x_job_alloc
+[    5.843860] tegra_drm: Unknown symbol host1x_job_alloc (err -22)
+[    5.849988] tegra_drm: disagrees about version of symbol host1x_channel_get
+[    5.856807] tegra_drm: Unknown symbol host1x_channel_get (err -22)
+[    5.856815] tegra_drm: disagrees about version of symbol host1x_client_unregister
+[    5.876937] tegra_drm: Unknown symbol host1x_client_unregister (err -22)
+[    5.883590] tegra_drm: disagrees about version of symbol host1x_channel_request
+[    5.890776] tegra_drm: Unknown symbol host1x_channel_request (err -22)
+[    5.897366] tegra_drm: disagrees about version of symbol host1x_job_add_gather
+[    5.904327] tegra_drm: Unknown symbol host1x_job_add_gather (err -22)
+[    5.910975] tegra_drm: disagrees about version of symbol host1x_channel_put
+[    5.917997] tegra_drm: Unknown symbol host1x_channel_put (err -22)
+[    5.924263] tegra_drm: disagrees about version of symbol host1x_get_dma_mask
+[    5.931188] tegra_drm: Unknown symbol host1x_get_dma_mask (err -22)
+[    5.937585] tegra_drm: disagrees about version of symbol host1x_job_add_wait
+[    5.944400] tegra_drm: Unknown symbol host1x_job_add_wait (err -22)
+[    5.950626] tegra_drm: disagrees about version of symbol host1x_client_resume
+[    5.957962] tegra_drm: Unknown symbol host1x_client_resume (err -22)
+[    5.964582] tegra_drm: disagrees about version of symbol host1x_syncpt_id
+[    5.971261] tegra_drm: Unknown symbol host1x_syncpt_id (err -22)
+[    6.008963] tegra_drm: disagrees about version of symbol __host1x_client_init
+[    6.009166] tegra_drm: Unknown symbol __host1x_client_init (err -22)
+[    6.009341] tegra_drm: disagrees about version of symbol host1x_fence_create
+[    6.009520] tegra_drm: Unknown symbol host1x_fence_create (err -22)
+[    6.009699] tegra_drm: disagrees about version of symbol host1x_channel_stop
+[    6.011434] tegra_drm: Unknown symbol host1x_channel_stop (err -22)
+[    6.017757] tegra_drm: disagrees about version of symbol host1x_client_suspend
+[    6.024948] tegra_drm: Unknown symbol host1x_client_suspend (err -22)
+[    6.031356] tegra_drm: disagrees about version of symbol host1x_memory_context_get
+[    6.038955] tegra_drm: Unknown symbol host1x_memory_context_get (err -22)
+[    6.045775] tegra_drm: disagrees about version of symbol host1x_syncpt_alloc
+[    6.052674] tegra_drm: Unknown symbol host1x_syncpt_alloc (err -22)
+[    6.058870] tegra_drm: disagrees about version of symbol host1x_job_pin
+[    6.065625] tegra_drm: Unknown symbol host1x_job_pin (err -22)
+[    6.071758] tegra_drm: disagrees about version of symbol host1x_syncpt_request
+[    6.079006] tegra_drm: Unknown symbol host1x_syncpt_request (err -22)
+[    6.093863] tegra_drm: disagrees about version of symbol host1x_job_put
+[    6.107937] tegra_drm: Unknown symbol host1x_job_put (err -22)
+[    6.113999] tegra_drm: disagrees about version of symbol host1x_syncpt_release_vblank_reservation
+[    6.123105] tegra_drm: Unknown symbol host1x_syncpt_release_vblank_reservation (err -22)
+[    6.131126] tegra_drm: disagrees about version of symbol host1x_job_unpin
+[    6.137687] tegra_drm: Unknown symbol host1x_job_unpin (err -22)
+[    6.143643] tegra_drm: disagrees about version of symbol host1x_memory_context_alloc
+[    6.151335] tegra_drm: Unknown symbol host1x_memory_context_alloc (err -22)
+[    6.158384] tegra_drm: disagrees about version of symbol host1x_memory_context_put
+[    6.165772] tegra_drm: Unknown symbol host1x_memory_context_put (err -22)
+[    6.172457] tegra_drm: disagrees about version of symbol host1x_syncpt_get_by_id_noref
+[    6.180212] tegra_drm: Unknown symbol host1x_syncpt_get_by_id_noref (err -22)
+[    6.187561] tegra_drm: disagrees about version of symbol host1x_syncpt_put
+[    6.194646] tegra_drm: Unknown symbol host1x_syncpt_put (err -22)
+[    6.200983] tegra_drm: disagrees about version of symbol host1x_syncpt_read
+[    6.208033] tegra_drm: Unknown symbol host1x_syncpt_read (err -22)
+[    6.214449] tegra_drm: disagrees about version of symbol host1x_job_submit
+[    6.221335] tegra_drm: Unknown symbol host1x_job_submit (err -22)
+[    6.227661] tegra_drm: disagrees about version of symbol __host1x_client_register
+[    6.235159] tegra_drm: Unknown symbol __host1x_client_register (err -22)
+[    6.241998] tegra_drm: disagrees about version of symbol host1x_syncpt_get_by_id
+[    6.249421] tegra_drm: Unknown symbol host1x_syncpt_get_by_id (err -22)
+[    6.256126] tegra_drm: disagrees about version of symbol host1x_client_exit
+[    6.262984] tegra_drm: Unknown symbol host1x_client_exit (err -22)
+[    6.269155] tegra_drm: disagrees about version of symbol host1x_syncpt_wait
+[    6.276108] tegra_drm: Unknown symbol host1x_syncpt_wait (err -22)
+[    6.282326] tegra_drm: disagrees about version of symbol host1x_syncpt_get
+[    6.289234] tegra_drm: Unknown symbol host1x_syncpt_get (err -22)
+[    6.295372] tegra_drm: disagrees about version of symbol host1x_job_alloc
+[    6.302098] tegra_drm: Unknown symbol host1x_job_alloc (err -22)
+[    6.308118] tegra_drm: disagrees about version of symbol host1x_channel_get
+[    6.314960] tegra_drm: Unknown symbol host1x_channel_get (err -22)
+[    6.321262] tegra_drm: disagrees about version of symbol host1x_client_unregister
+[    6.328608] tegra_drm: Unknown symbol host1x_client_unregister (err -22)
+[    6.335436] tegra_drm: disagrees about version of symbol host1x_channel_request
+[    6.342610] tegra_drm: Unknown symbol host1x_channel_request (err -22)
+[    6.349247] tegra_drm: disagrees about version of symbol host1x_job_add_gather
+[    6.356258] tegra_drm: Unknown symbol host1x_job_add_gather (err -22)
+[    6.362727] tegra_drm: disagrees about version of symbol host1x_channel_put
+[    6.369735] tegra_drm: Unknown symbol host1x_channel_put (err -22)
+[    6.376103] tegra_drm: disagrees about version of symbol host1x_get_dma_mask
+[    6.383035] tegra_drm: Unknown symbol host1x_get_dma_mask (err -22)
+[    6.389401] tegra_drm: disagrees about version of symbol host1x_job_add_wait
+[    6.396246] tegra_drm: Unknown symbol host1x_job_add_wait (err -22)
+[    6.402475] tegra_drm: disagrees about version of symbol host1x_client_resume
+[    6.409809] tegra_drm: Unknown symbol host1x_client_resume (err -22)
+[    6.416427] tegra_drm: disagrees about version of symbol host1x_syncpt_id
+[    6.423108] tegra_drm: Unknown symbol host1x_syncpt_id (err -22)
+[    6.445801] tegra_drm: disagrees about version of symbol __host1x_client_init
+[    6.446004] tegra_drm: Unknown symbol __host1x_client_init (err -22)
+[    6.446178] tegra_drm: disagrees about version of symbol host1x_fence_create
+[    6.449885] tegra_drm: Unknown symbol host1x_fence_create (err -22)
+[    6.456192] tegra_drm: disagrees about version of symbol host1x_channel_stop
+[    6.463273] tegra_drm: Unknown symbol host1x_channel_stop (err -22)
+[    6.469572] tegra_drm: disagrees about version of symbol host1x_client_suspend
+[    6.476747] tegra_drm: Unknown symbol host1x_client_suspend (err -22)
+[    6.483147] tegra_drm: disagrees about version of symbol host1x_memory_context_get
+[    6.490745] tegra_drm: Unknown symbol host1x_memory_context_get (err -22)
+[    6.497577] tegra_drm: disagrees about version of symbol host1x_syncpt_alloc
+[    6.504483] tegra_drm: Unknown symbol host1x_syncpt_alloc (err -22)
+[    6.510640] tegra_drm: disagrees about version of symbol host1x_job_pin
+[    6.517434] tegra_drm: Unknown symbol host1x_job_pin (err -22)
+[    6.523555] tegra_drm: disagrees about version of symbol host1x_syncpt_request
+[    6.530821] tegra_drm: Unknown symbol host1x_syncpt_request (err -22)
+[    6.537392] tegra_drm: disagrees about version of symbol host1x_job_put
+[    6.544121] tegra_drm: Unknown symbol host1x_job_put (err -22)
+[    6.550081] tegra_drm: disagrees about version of symbol host1x_syncpt_release_vblank_reservation
+[    6.558997] tegra_drm: Unknown symbol host1x_syncpt_release_vblank_reservation (err -22)
+[    6.567186] tegra_drm: disagrees about version of symbol host1x_job_unpin
+[    6.573959] tegra_drm: Unknown symbol host1x_job_unpin (err -22)
+[    6.580084] tegra_drm: disagrees about version of symbol host1x_memory_context_alloc
+[    6.587697] tegra_drm: Unknown symbol host1x_memory_context_alloc (err -22)
+[    6.594658] tegra_drm: disagrees about version of symbol host1x_memory_context_put
+[    6.602134] tegra_drm: Unknown symbol host1x_memory_context_put (err -22)
+[    6.608907] tegra_drm: disagrees about version of symbol host1x_syncpt_get_by_id_noref
+[    6.616660] tegra_drm: Unknown symbol host1x_syncpt_get_by_id_noref (err -22)
+[    6.624012] tegra_drm: disagrees about version of symbol host1x_syncpt_put
+[    6.631096] tegra_drm: Unknown symbol host1x_syncpt_put (err -22)
+[    6.637432] tegra_drm: disagrees about version of symbol host1x_syncpt_read
+[    6.644484] tegra_drm: Unknown symbol host1x_syncpt_read (err -22)
+[    6.650900] tegra_drm: disagrees about version of symbol host1x_job_submit
+[    6.657784] tegra_drm: Unknown symbol host1x_job_submit (err -22)
+[    6.664108] tegra_drm: disagrees about version of symbol __host1x_client_register
+[    6.671609] tegra_drm: Unknown symbol __host1x_client_register (err -22)
+[    6.678448] tegra_drm: disagrees about version of symbol host1x_syncpt_get_by_id
+[    6.685872] tegra_drm: Unknown symbol host1x_syncpt_get_by_id (err -22)
+[    6.692576] tegra_drm: disagrees about version of symbol host1x_client_exit
+[    6.699435] tegra_drm: Unknown symbol host1x_client_exit (err -22)
+[    6.705604] tegra_drm: disagrees about version of symbol host1x_syncpt_wait
+[    6.712558] tegra_drm: Unknown symbol host1x_syncpt_wait (err -22)
+[    6.718775] tegra_drm: disagrees about version of symbol host1x_syncpt_get
+[    6.725683] tegra_drm: Unknown symbol host1x_syncpt_get (err -22)
+[    6.731820] tegra_drm: disagrees about version of symbol host1x_job_alloc
+[    6.738547] tegra_drm: Unknown symbol host1x_job_alloc (err -22)
+[    6.744570] tegra_drm: disagrees about version of symbol host1x_channel_get
+[    6.751408] tegra_drm: Unknown symbol host1x_channel_get (err -22)
+[    6.757712] tegra_drm: disagrees about version of symbol host1x_client_unregister
+[    6.765058] tegra_drm: Unknown symbol host1x_client_unregister (err -22)
+[    6.771882] tegra_drm: disagrees about version of symbol host1x_channel_request
+[    6.779059] tegra_drm: Unknown symbol host1x_channel_request (err -22)
+[    6.785690] tegra_drm: disagrees about version of symbol host1x_job_add_gather
+[    6.792711] tegra_drm: Unknown symbol host1x_job_add_gather (err -22)
+[    6.799175] tegra_drm: disagrees about version of symbol host1x_channel_put
+[    6.806183] tegra_drm: Unknown symbol host1x_channel_put (err -22)
+[    6.812555] tegra_drm: disagrees about version of symbol host1x_get_dma_mask
+[    6.819490] tegra_drm: Unknown symbol host1x_get_dma_mask (err -22)
+[    6.825888] tegra_drm: disagrees about version of symbol host1x_job_add_wait
+[    6.832696] tegra_drm: Unknown symbol host1x_job_add_wait (err -22)
+[    6.838923] tegra_drm: disagrees about version of symbol host1x_client_resume
+[    6.846258] tegra_drm: Unknown symbol host1x_client_resume (err -22)
+[    6.852876] tegra_drm: disagrees about version of symbol host1x_syncpt_id
+[    6.859559] tegra_drm: Unknown symbol host1x_syncpt_id (err -22)
+[    6.882724] tegra_drm: disagrees about version of symbol __host1x_client_init
+[    6.882918] tegra_drm: Unknown symbol __host1x_client_init (err -22)
+[    6.883082] tegra_drm: disagrees about version of symbol host1x_fence_create
+[    6.886336] tegra_drm: Unknown symbol host1x_fence_create (err -22)
+[    6.892642] tegra_drm: disagrees about version of symbol host1x_channel_stop
+[    6.899723] tegra_drm: Unknown symbol host1x_channel_stop (err -22)
+[    6.906021] tegra_drm: disagrees about version of symbol host1x_client_suspend
+[    6.913196] tegra_drm: Unknown symbol host1x_client_suspend (err -22)
+[    6.919601] tegra_drm: disagrees about version of symbol host1x_memory_context_get
+[    6.927196] tegra_drm: Unknown symbol host1x_memory_context_get (err -22)
+[    6.934027] tegra_drm: disagrees about version of symbol host1x_syncpt_alloc
+[    6.940934] tegra_drm: Unknown symbol host1x_syncpt_alloc (err -22)
+[    6.947091] tegra_drm: disagrees about version of symbol host1x_job_pin
+[    6.953883] tegra_drm: Unknown symbol host1x_job_pin (err -22)
+[    6.960007] tegra_drm: disagrees about version of symbol host1x_syncpt_request
+[    6.967271] tegra_drm: Unknown symbol host1x_syncpt_request (err -22)
+[    6.973842] tegra_drm: disagrees about version of symbol host1x_job_put
+[    6.980572] tegra_drm: Unknown symbol host1x_job_put (err -22)
+[    6.986532] tegra_drm: disagrees about version of symbol host1x_syncpt_release_vblank_reservation
+[    6.995447] tegra_drm: Unknown symbol host1x_syncpt_release_vblank_reservation (err -22)
+[    7.003639] tegra_drm: disagrees about version of symbol host1x_job_unpin
+[    7.010408] tegra_drm: Unknown symbol host1x_job_unpin (err -22)
+[    7.016536] tegra_drm: disagrees about version of symbol host1x_memory_context_alloc
+[    7.024146] tegra_drm: Unknown symbol host1x_memory_context_alloc (err -22)
+[    7.031107] tegra_drm: disagrees about version of symbol host1x_memory_context_put
+[    7.038585] tegra_drm: Unknown symbol host1x_memory_context_put (err -22)
+[    7.045356] tegra_drm: disagrees about version of symbol host1x_syncpt_get_by_id_noref
+[    7.053108] tegra_drm: Unknown symbol host1x_syncpt_get_by_id_noref (err -22)
+[    7.060462] tegra_drm: disagrees about version of symbol host1x_syncpt_put
+[    7.067546] tegra_drm: Unknown symbol host1x_syncpt_put (err -22)
+[    7.073882] tegra_drm: disagrees about version of symbol host1x_syncpt_read
+[    7.080933] tegra_drm: Unknown symbol host1x_syncpt_read (err -22)
+[    7.087350] tegra_drm: disagrees about version of symbol host1x_job_submit
+[    7.094234] tegra_drm: Unknown symbol host1x_job_submit (err -22)
+[    7.100559] tegra_drm: disagrees about version of symbol __host1x_client_register
+[    7.108060] tegra_drm: Unknown symbol __host1x_client_register (err -22)
+[    7.114899] tegra_drm: disagrees about version of symbol host1x_syncpt_get_by_id
+[    7.122320] tegra_drm: Unknown symbol host1x_syncpt_get_by_id (err -22)
+[    7.129027] tegra_drm: disagrees about version of symbol host1x_client_exit
+[    7.135885] tegra_drm: Unknown symbol host1x_client_exit (err -22)
+[    7.142053] tegra_drm: disagrees about version of symbol host1x_syncpt_wait
+[    7.149008] tegra_drm: Unknown symbol host1x_syncpt_wait (err -22)
+[    7.155225] tegra_drm: disagrees about version of symbol host1x_syncpt_get
+[    7.162134] tegra_drm: Unknown symbol host1x_syncpt_get (err -22)
+[    7.168269] tegra_drm: disagrees about version of symbol host1x_job_alloc
+[    7.174995] tegra_drm: Unknown symbol host1x_job_alloc (err -22)
+[    7.181019] tegra_drm: disagrees about version of symbol host1x_channel_get
+[    7.187859] tegra_drm: Unknown symbol host1x_channel_get (err -22)
+[    7.194163] tegra_drm: disagrees about version of symbol host1x_client_unregister
+[    7.201508] tegra_drm: Unknown symbol host1x_client_unregister (err -22)
+[    7.208334] tegra_drm: disagrees about version of symbol host1x_channel_request
+[    7.215508] tegra_drm: Unknown symbol host1x_channel_request (err -22)
+[    7.222143] tegra_drm: disagrees about version of symbol host1x_job_add_gather
+[    7.229160] tegra_drm: Unknown symbol host1x_job_add_gather (err -22)
+[    7.235626] tegra_drm: disagrees about version of symbol host1x_channel_put
+[    7.242633] tegra_drm: Unknown symbol host1x_channel_put (err -22)
+[    7.249002] tegra_drm: disagrees about version of symbol host1x_get_dma_mask
+[    7.255936] tegra_drm: Unknown symbol host1x_get_dma_mask (err -22)
+[    7.262300] tegra_drm: disagrees about version of symbol host1x_job_add_wait
+[    7.269146] tegra_drm: Unknown symbol host1x_job_add_wait (err -22)
+[    7.275375] tegra_drm: disagrees about version of symbol host1x_client_resume
+[    7.282709] tegra_drm: Unknown symbol host1x_client_resume (err -22)
+[    7.289327] tegra_drm: disagrees about version of symbol host1x_syncpt_id
+[    7.296009] tegra_drm: Unknown symbol host1x_syncpt_id (err -22)
+[    7.325676] tegra_drm: disagrees about version of symbol __host1x_client_init
+[    7.325879] tegra_drm: Unknown symbol __host1x_client_init (err -22)
+[    7.326051] tegra_drm: disagrees about version of symbol host1x_fence_create
+[    7.326233] tegra_drm: Unknown symbol host1x_fence_create (err -22)
+[    7.329088] tegra_drm: disagrees about version of symbol host1x_channel_stop
+[    7.336172] tegra_drm: Unknown symbol host1x_channel_stop (err -22)
+[    7.342473] tegra_drm: disagrees about version of symbol host1x_client_suspend
+[    7.349647] tegra_drm: Unknown symbol host1x_client_suspend (err -22)
+[    7.356051] tegra_drm: disagrees about version of symbol host1x_memory_context_get
+[    7.363647] tegra_drm: Unknown symbol host1x_memory_context_get (err -22)
+[    7.370477] tegra_drm: disagrees about version of symbol host1x_syncpt_alloc
+[    7.377384] tegra_drm: Unknown symbol host1x_syncpt_alloc (err -22)
+[    7.383538] tegra_drm: disagrees about version of symbol host1x_job_pin
+[    7.390334] tegra_drm: Unknown symbol host1x_job_pin (err -22)
+[    7.396454] tegra_drm: disagrees about version of symbol host1x_syncpt_request
+[    7.403721] tegra_drm: Unknown symbol host1x_syncpt_request (err -22)
+[    7.410292] tegra_drm: disagrees about version of symbol host1x_job_put
+[    7.417021] tegra_drm: Unknown symbol host1x_job_put (err -22)
+[    7.422982] tegra_drm: disagrees about version of symbol host1x_syncpt_release_vblank_reservation
+[    7.431897] tegra_drm: Unknown symbol host1x_syncpt_release_vblank_reservation (err -22)
+[    7.440083] tegra_drm: disagrees about version of symbol host1x_job_unpin
+[    7.446860] tegra_drm: Unknown symbol host1x_job_unpin (err -22)
+[    7.452985] tegra_drm: disagrees about version of symbol host1x_memory_context_alloc
+[    7.460598] tegra_drm: Unknown symbol host1x_memory_context_alloc (err -22)
+[    7.467556] tegra_drm: disagrees about version of symbol host1x_memory_context_put
+[    7.475035] tegra_drm: Unknown symbol host1x_memory_context_put (err -22)
+[    7.481807] tegra_drm: disagrees about version of symbol host1x_syncpt_get_by_id_noref
+[    7.489559] tegra_drm: Unknown symbol host1x_syncpt_get_by_id_noref (err -22)
+[    7.496912] tegra_drm: disagrees about version of symbol host1x_syncpt_put
+[    7.503995] tegra_drm: Unknown symbol host1x_syncpt_put (err -22)
+[    7.510333] tegra_drm: disagrees about version of symbol host1x_syncpt_read
+[    7.517384] tegra_drm: Unknown symbol host1x_syncpt_read (err -22)
+[    7.523799] tegra_drm: disagrees about version of symbol host1x_job_submit
+[    7.530684] tegra_drm: Unknown symbol host1x_job_submit (err -22)
+[    7.537008] tegra_drm: disagrees about version of symbol __host1x_client_register
+[    7.544510] tegra_drm: Unknown symbol __host1x_client_register (err -22)
+[    7.551348] tegra_drm: disagrees about version of symbol host1x_syncpt_get_by_id
+[    7.558771] tegra_drm: Unknown symbol host1x_syncpt_get_by_id (err -22)
+[    7.565474] tegra_drm: disagrees about version of symbol host1x_client_exit
+[    7.572335] tegra_drm: Unknown symbol host1x_client_exit (err -22)
+[    7.578505] tegra_drm: disagrees about version of symbol host1x_syncpt_wait
+[    7.585459] tegra_drm: Unknown symbol host1x_syncpt_wait (err -22)
+[    7.591674] tegra_drm: disagrees about version of symbol host1x_syncpt_get
+[    7.598584] tegra_drm: Unknown symbol host1x_syncpt_get (err -22)
+[    7.604720] tegra_drm: disagrees about version of symbol host1x_job_alloc
+[    7.611446] tegra_drm: Unknown symbol host1x_job_alloc (err -22)
+[    7.617468] tegra_drm: disagrees about version of symbol host1x_channel_get
+[    7.624308] tegra_drm: Unknown symbol host1x_channel_get (err -22)
+[    7.630613] tegra_drm: disagrees about version of symbol host1x_client_unregister
+[    7.637960] tegra_drm: Unknown symbol host1x_client_unregister (err -22)
+[    7.644784] tegra_drm: disagrees about version of symbol host1x_channel_request
+[    7.651959] tegra_drm: Unknown symbol host1x_channel_request (err -22)
+[    7.658592] tegra_drm: disagrees about version of symbol host1x_job_add_gather
+[    7.665609] tegra_drm: Unknown symbol host1x_job_add_gather (err -22)
+[    7.672075] tegra_drm: disagrees about version of symbol host1x_channel_put
+[    7.679083] tegra_drm: Unknown symbol host1x_channel_put (err -22)
+[    7.685453] tegra_drm: disagrees about version of symbol host1x_get_dma_mask
+[    7.692384] tegra_drm: Unknown symbol host1x_get_dma_mask (err -22)
+[    7.698749] tegra_drm: disagrees about version of symbol host1x_job_add_wait
+[    7.705596] tegra_drm: Unknown symbol host1x_job_add_wait (err -22)
+[    7.711824] tegra_drm: disagrees about version of symbol host1x_client_resume
+[    7.719160] tegra_drm: Unknown symbol host1x_client_resume (err -22)
+[    7.725776] tegra_drm: disagrees about version of symbol host1x_syncpt_id
+[    7.732459] tegra_drm: Unknown symbol host1x_syncpt_id (err -22)
